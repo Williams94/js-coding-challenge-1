@@ -7,5 +7,5 @@ export function objectFilter(objects, key, searchString) {
 }
 
 export function compoundObjectFilter(objects, keysString, searchString) {
-
+    return objects.filter(object => object[keysString.split('.')[0]][keysString.split('.')[1]] === searchString);
 }
