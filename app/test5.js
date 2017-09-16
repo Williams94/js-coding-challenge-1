@@ -1,6 +1,7 @@
 export function groupBy(people, key) {
   return people.reduce((total, person) => {
-    (total[person[key]] = total[person[key]] || []).push(person);
+    total[person[key]] = total[person[key]] !== undefined ? total[person[key]] : [];
+    total[person[key]].push(person);
     return total;
   }, {});
 }
