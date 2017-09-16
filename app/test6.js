@@ -17,12 +17,12 @@ export class English extends Greeting {
 
 export class French extends Greeting {
   sayHello() {
-    return 'Hello Chris';
+    return 'Bonjour Chris';
   }
 }
 
 export class Spanish extends Greeting {
   sayHello() {
-    return 'Hello Chris';
+    return 'Hola Chris';
   }
 }
