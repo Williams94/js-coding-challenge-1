@@ -1,3 +1,3 @@
-export default function test8(){
+export default function test8() {
 
 }

@@ -1,4 +1,4 @@
-export default function test7(string){
+export default function test7(string) {
   //Write your solution here
 
 

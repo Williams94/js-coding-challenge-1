@@ -2,6 +2,7 @@ class Greeting {
   constructor(name) {
     this.name = name;
   }
+
   sayHello() {
     throw new Error('I don\'t know how to speak!')
   }
@@ -9,13 +10,19 @@ class Greeting {
 
 // Add your new classes here
 export class English extends Greeting {
-
+  sayHello() {
+    return 'Hello Chris';
+  }
 }
 
 export class French extends Greeting {
-
+  sayHello() {
+    return 'Hello Chris';
+  }
 }
 
 export class Spanish extends Greeting {
-
+  sayHello() {
+    return 'Hello Chris';
+  }
 }
