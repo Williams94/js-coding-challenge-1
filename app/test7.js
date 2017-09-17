@@ -1,11 +1,11 @@
 export default function test7(string) {
   //Write your solution here
-  Object.defineProperty(String.prototype, string, {
-    value(v) {
-      console.log(v);
+  Object.assign(String.prototype, {
+    reverse() {
+      return this.split("").reverse().join("");
     }
   });
   //
-  // return string.reverse();
+  return string.reverse();
 }
 
